@@ -16,7 +16,7 @@
 **Phone:** +7 981 71 56 289 
 
 
-**Mail:** kirill19011998#mail.ru
+**Mail:** kirill19011998@mail.ru
 
 
 **Telegram:** Fokin_k
@@ -33,7 +33,7 @@
 
 
 My name is Kirill Fokin. My education is a financier although I have worked in different industries. But not long ago I became interested in programming and I liked the front-end direction. I hope that my perseverance will help me successfully complete these courses and become a full-fledged javascript programmer.
-********* 
+
 
 
 ### Skills and Proficiency: ###
@@ -82,7 +82,7 @@ const isPowerOfTwo = function(n) {
 
 
 
- ### Languages:  ###
+ ### Languages ###
 
 
 **Russian:** educated native Speaker
