@@ -82,7 +82,7 @@ const isPowerOfTwo = function(n) {
 
 
 
- ### Languages ###
+**Languages**
 
 
 **Russian:** educated native Speaker
