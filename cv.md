@@ -1,6 +1,6 @@
 #Kirill Fokin#
 ********* 
-##Junior Frontend Student##
+##Javascript Frontend Student##
 ********* 
 
 ###Contact information:###
@@ -31,10 +31,12 @@ My name is Kirill Fokin. My education is a financier although I have worked in d
 
 ********* 
 ```
-Code example:
-7 kyu
-Power of two
+###Code example:###
+7 kyu Power of two 
+
+
 JavaScript:
+
 
 const isPowerOfTwo = function(n) {
   let result = 1;
@@ -47,3 +49,9 @@ const isPowerOfTwo = function(n) {
   
   }
   ```
+
+********* 
+ ###Languages:###
+Russian : educated native Speaker
+English : A2
+********* 
