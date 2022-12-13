@@ -29,7 +29,7 @@
 
 
 
-###Briefly About Myself:###
+### Briefly About Myself: ###
 
 
 My name is Kirill Fokin. My education is a financier although I have worked in different industries. But not long ago I became interested in programming and I liked the front-end direction. I hope that my perseverance will help me successfully complete these courses and become a full-fledged javascript programmer.
@@ -55,9 +55,9 @@ My name is Kirill Fokin. My education is a financier although I have worked in d
 
 ********* 
 
-
-```
 ### Code example: ###
+```
+
 
 
 7 kyu Power of two 
@@ -79,13 +79,15 @@ const isPowerOfTwo = function(n) {
   ```
 
 ********* 
+
+
  ### Languages: ###
 
 
-**Russian : educated native Speaker**
+**Russian:** educated native Speaker
 
 
-**English : A2**
+**English:** A2
 
 
 ********* 
