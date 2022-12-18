@@ -41,7 +41,9 @@ body {
 }
 .nav-item {
   font-size: 32px;
+  cursor: pointer;
 }
+ 
 .nav-item a {
   color:black;
   text-decoration: none;
