@@ -5,21 +5,21 @@
   font-family: Helvetica;
 }
 body {
- background:rgb(116, 195, 221);
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgb(116, 195, 221);
+ 
+ 
 }
 .container {
+  display:flex;
+  flex-direction: column;
   width: 100%;
+  margin: 0 20px;
   max-width: 1400px;
   min-height: 1300px;
   background-color: rgb(255, 255, 255);
-  display:flex;
-  flex-direction: column;
-  
-  margin: 0 20px;
-
  }
  
 .header {
@@ -34,16 +34,17 @@ body {
   display: flex;
   justify-content:space-around;
   align-items: center;
-  list-style-type: none;
   margin-left: 400px;
   margin-top: 20px;
+  list-style-type: none;
+ 
 }
 .nav-item {
   font-size: 32px;
 }
 .nav-item a {
- color:black;
- text-decoration: none;
+  color:black;
+  text-decoration: none;
  
  
 }
@@ -66,6 +67,8 @@ main {
 }
 
 .footer {
+  display: flex;
+  justify-content:space-between;
   width: 100%;
   height: 100px;
   background: rgb(85, 85, 255);
@@ -80,6 +83,7 @@ main {
   padding-bottom: 20px;
   margin-top: 20px;
 }
+
 .container .img-profile img {
   position: absolute;
   top:0;
@@ -87,72 +91,72 @@ main {
   width: 100%;
   height: 100%;
   object-fit:cover;
-;
+
 }
+
 .container .profile-text{
-  
   display:flex;
   flex-direction:column;
   align-items: center;
   padding-bottom: 20px;
   border-bottom: 3px solid rgba(255,255,255,0.2);
 }
+
 p {
   color:rgb(59, 28, 132);
 }
-.title2{
-  color:rgb(44, 44, 141);
+h1 {
   text-align: left;
-  text-transform: uppercase;
+  color:rgb(44, 44, 141);
   margin-bottom:50px;
+  text-transform: uppercase;
   font-size:24px;
-  
-  }
+}
 
  h2 span {
   font-size: 0.8em;
   font-weight: 300;
 }
+
 contact-info {
   padding-top:40px;
   margin-left: 35px;
-
-
 }
 
 .title {
-color:white;
-text-decoration: uppercase;
-font-weight: 600;
-letter-spacing: 1px;
-margin-bottom:20px;
-margin-left:30px;
+  margin-bottom:20px;
+  margin-left:30px;
+  color:white;
+  text-decoration: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .contact-info ul li {
+  margin: 10px 40px 0 0 ;
   position:relative;
-  list-style:none;
-  margin: 10px 0 ;
-  cursor: pointer;
   text-align: center;
-  margin-right:40px;
+  list-style:none;
+  cursor: pointer;
+  
+  
 }
 
 .contact-info ul li .icon {
-  display:inline-block;
+ display:inline-block;
  width:40px;
  font-size: 18px;
  color:rgb(103, 208, 246);
  }
  
  .contact-info ul li span {
+   text-align: left; 
    color:white;
    font-weight: 00;
-   text-align: left;
    font-size:15px;
  }
  .contact-info-education {
- margin-right: 40px;
+  margin-right: 40px;
   margin-top:40px;
   text-align: left;
   
@@ -161,18 +165,20 @@ margin-left:30px;
 
 .contact-info-education li {
   margin-bottom:15px;
-  list-style:none;
   text-align: center;
+  list-style:none;
+
   
   
     
 }
 .contact-info-education h5 {
-  color:rgb(103, 208, 246);
-  font-weight:500;
   margin:10px;
   margin-left:40px;
   text-align: center;
+  color:rgb(103, 208, 246);
+  font-weight:500;
+  
 }
 
 .contact-info-education .title {
@@ -182,24 +188,26 @@ margin-left:30px;
 
 
   .contactInfoLanguage .percent {
-    width: 100%;
-    height:6px;
-    background-color: rgb(95, 84, 84);
     display:block;
     margin-bottom: 15px;
+    width: 100%;
+    height:6px;
+    
+    background-color: rgb(95, 84, 84);
+  
   }
   
   .contactInfoLanguage .percent div {
     top: 0; 
     left: 0;
-     height: 100%;
-     background:rgb(36, 164, 206);
+    height: 100%;
+    background:rgb(36, 164, 206);
   }
   
   .contactInfoLanguage {
-  margin-top:40px;
-  margin-left:20px;
-  margin-right: 65px;
+    margin-top:40px;
+    margin-left:20px;
+    margin-right: 65px;
   }
   .contactInfoLanguage li {
     list-style-type: none;
@@ -208,12 +216,12 @@ margin-left:30px;
 
   .title {
     text-align: center;
-    margin-right: 2;
+    
   }
   .slills .box {
     position:relative;
-    width:100%;
     display:flex;
+    width:100%;
     justify-content: center;
     align-items: center;
   }
@@ -243,9 +251,8 @@ margin-left:30px;
     list-style:none;
   }
   .aboutinterest ul {
-    list-style: none;
     display:flex;
-    flex-direction: ;
+    list-style: none;
   }
   
   .aboutinterest ul li {
@@ -260,19 +267,19 @@ margin-left:30px;
   width:20px;
   }
   
-  .title2 {
-   
+  .h1 {
     text-align: center;
   }
+
   .title3 {
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 20px;
     color: rgb(46, 33, 107);
     font-size:1.2em;
-    margin-top: 20px;
     text-transform: uppercase;
-    text-align: center;
     font-weight: 600;
     line-height: 1.4em;
-    padding-bottom: 50px;
   }
  
   .about {
@@ -284,5 +291,13 @@ margin-left:30px;
   .aboutinterest {
     margin-top: 60px;
   }
+  .rs-logo {
+    height:100px;
+  }
+  .gitlogo {
+    height:100px;
+  }
   
-  
+  pre {
+    border: 5px dotted rgb(154, 235, 251) ;
+  }
