@@ -303,3 +303,10 @@ contact-info {
   pre {
     border: 5px dotted rgb(154, 235, 251) ;
   }
+
+  .year-date {
+    text-align: center;
+     margin-top: 20px;
+    font-size: 48px;
+    color:rgb(117, 169, 214);
+  }
